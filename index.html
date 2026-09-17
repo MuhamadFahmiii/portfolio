@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhamad Fahmi — Software Engineer & Informatics Graduate</title>
+    <meta
+      name="description"
+      content="Portfolio of Muhamad Fahmi — Software Engineer and Informatics graduate of Universitas Pembangunan Jaya. Fullstack web development (PHP, MySQL, Bootstrap 5) and NLP with IndoBERT."
+    />
+    <meta property="og:title" content="Muhamad Fahmi — Portfolio" />
+    <meta
+      property="og:description"
+      content="Software Engineer — fullstack web development & NLP. Informatics graduate, Universitas Pembangunan Jaya."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0f1a'/%3E%3Ctext x='32' y='42' font-family='Arial, sans-serif' font-size='28' font-weight='700' fill='%2322d3ee' text-anchor='middle'%3EMF%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ===== Navbar ===== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#home" class="logo">MF<span class="logo-dot">.</span></a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <a
+          href="mailto:fahmimuhamad168@gmail.com"
+          class="btn btn-outline btn-sm nav-cta"
+          >Hire Me</a
+        >
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== Hero ===== -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-text reveal">
+            <p class="hero-greeting">Hi there, I'm</p>
+            <h1 class="hero-name">Muhamad Fahmi</h1>
+            <h2 class="hero-role">
+              Software Engineer | Ex-Full-Stack Developer Intern at PT Trafoindo
+              Power Indonesia | Informatics Graduate at Universitas Pembangunan
+              Jaya
+            </h2>
+            <!-- <p class="hero-desc">
+              I build responsive websites and CMS platforms with PHP, MySQL, and
+              Bootstrap 5 — and explore Natural Language Processing with
+              IndoBERT. Based in South Tangerang, Indonesia.
+            </p> -->
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View My Projects</a>
+              <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+
+            <ul class="hero-facts">
+              <li class="fact">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                South Tangerang, Indonesia
+              </li>
+              <li class="fact">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                </svg>
+                B.Informatics, UPJ
+              </li>
+              <li class="fact">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M20 6 9 17l-5-5" />
+                </svg>
+                Open to opportunities
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card reveal delay-1" aria-hidden="true">
+            <div class="window">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="window-title">fahmi.json</span>
+            </div>
+            <pre
+              class="code"
+            ><code><span class="line"><span class="p">{</span></span>
+<span class="line">  <span class="key">"name"</span><span class="p">:</span> <span class="str">"Muhamad Fahmi"</span><span class="p">,</span></span>
+<span class="line">  <span class="key">"role"</span><span class="p">:</span> <span class="str">"Software Engineer"</span><span class="p">,</span></span>
+<span class="line">  <span class="key">"education"</span><span class="p">:</span> <span class="str">"Informatics, UPJ"</span><span class="p">,</span></span>
+<span class="line">  <span class="key">"focus"</span><span class="p">:</span> <span class="str">"Fullstack Web", "AI/ML Engineering"</span><span class="p">,</span></span>
+<span class="line">  <span class="key">"stack"</span><span class="p">:</span> <span class="str">"PHP", "JavaScript", "MySQL", "Bootstrap"</span><span class="p">,</span></span>
+<span class="line">  <span class="key">"status"</span><span class="p">:</span> <span class="str">"open_to_work"</span></span>
+<span class="line"><span class="p">}</span></span></code></pre>
+          </div>
+        </div>
+
+        <a href="#about" class="scroll-hint" aria-label="Scroll down">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M12 5v14M19 12l-7 7-7-7" />
+          </svg>
+        </a>
+      </section>
+
+      <!-- ===== About ===== -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">A brief introduction</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text reveal">
+              <p>
+                I am an <strong>Informatics graduate</strong> with internship
+                experience in web development and academic experience in machine
+                learning and natural language processing. During my internship
+                at <strong>PT Trafoindo Power Indonesia</strong>, I developed
+                and maintained a responsive company profile website with CMS
+                using PHP, MySQL, Bootstrap, JavaScript, HTML, and CSS.
+              </p>
+              <p>
+                For my final year project, I built an Indonesian sentiment
+                analysis model using <strong>IndoBERT</strong> and published the
+                research in a <strong>SINTA 3 accredited journal</strong>.
+              </p>
+              <p>
+                I enjoy learning new technologies, solving problems, and
+                building software that delivers practical value. I am eager to
+                contribute, grow professionally, and continuously improve my
+                technical skills in the technology industry.
+              </p>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-card reveal delay-1">
+                <span class="stat-value">82%</span>
+                <span class="stat-label"
+                  >Model Accuracy<br />(IndoBERT, 3 classes)</span
+                >
+              </div>
+              <div class="stat-card reveal delay-2">
+                <span class="stat-value">17K+</span>
+                <span class="stat-label">Text entries<br />preprocessed</span>
+              </div>
+              <div class="stat-card reveal delay-3">
+                <span class="stat-value">1</span>
+                <span class="stat-label">Publication<br />SINTA 3 journal</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Experience ===== -->
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-tag">Experience</span>
+            <h2 class="section-title">Where I've worked & contributed</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">07/2025 – 09/2025</span>
+                <h3 class="tl-title">Fullstack Developer Intern</h3>
+                <span class="tl-org">PT. Trafoindo Power Indonesia</span>
+                <ul class="tl-list">
+                  <li>
+                    Developed and maintained a responsive company profile
+                    website using PHP, MySQL, Bootstrap 5, JavaScript, HTML, and
+                    CSS.
+                  </li>
+                  <li>
+                    Built CMS features for managing website content, products,
+                    catalogs, and company information.
+                  </li>
+                  <li>
+                    Designed responsive UI from Figma mockups for a consistent
+                    experience across devices.
+                  </li>
+                  <li>
+                    Independently delivered the project, coordinating with the
+                    internship supervisor and IT Manager.
+                  </li>
+                </ul>
+                <div class="chips">
+                  <span class="chip">PHP</span><span class="chip">MySQL</span
+                  ><span class="chip">Bootstrap 5</span
+                  ><span class="chip">JavaScript</span
+                  ><span class="chip">Figma</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">02/2026 – 07/2026</span>
+                <h3 class="tl-title">Final Year Project — NLP Researcher</h3>
+                <span class="tl-org">Universitas Pembangunan Jaya</span>
+                <ul class="tl-list">
+                  <li>
+                    Built an Indonesian NLP model with IndoBERT, PyTorch, and
+                    Hugging Face Transformers to analyze public sentiment on the
+                    Free Nutritious Meal policy on X.
+                  </li>
+                  <li>
+                    Preprocessed 17,000+ text entries: cleaning, case folding,
+                    normalization, and subword tokenization.
+                  </li>
+                  <li>
+                    Fine-tuned IndoBERT with weighted loss functions for
+                    multi-class sentiment classification.
+                  </li>
+                  <li>
+                    Achieved 82% test accuracy and 0.81 weighted F1-score;
+                    published in Jurnal Informatika (JPIT), SINTA 3.
+                  </li>
+                </ul>
+                <div class="chips">
+                  <span class="chip">Python</span
+                  ><span class="chip">IndoBERT</span
+                  ><span class="chip">PyTorch</span
+                  ><span class="chip">Hugging Face</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">06/2023</span>
+                <h3 class="tl-title">Data Entry Intern — 150 Hours</h3>
+                <span class="tl-org">ICT, Universitas Pembangunan Jaya</span>
+                <ul class="tl-list">
+                  <li>
+                    Inputted, updated, and organized administrative data for the
+                    ICT unit.
+                  </li>
+                  <li>
+                    Verified accuracy and consistency, resolving duplicate
+                    records prior to system entry.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">09/2024 – 10/2024</span>
+                <h3 class="tl-title">Event Division Committee</h3>
+                <span class="tl-org">LKMM, Universitas Pembangunan Jaya</span>
+                <ul class="tl-list">
+                  <li>
+                    Prepared the event agenda and coordinated program
+                    activities.
+                  </li>
+                  <li>
+                    Monitored execution to keep activities on schedule,
+                    collaborating with other committees.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">08/2023 – 06/2024</span>
+                <h3 class="tl-title">Student Video Director</h3>
+                <span class="tl-org"
+                  >FORCAST — Informatics Student Association, UPJ</span
+                >
+                <ul class="tl-list">
+                  <li>
+                    Directed educational videos introducing Informatics topics
+                    to prospective students and the public.
+                  </li>
+                  <li>
+                    Coordinated pre-production, filming, and post-production
+                    with scriptwriters, camera operators, and editors.
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="tl-item reveal">
+              <div class="tl-dot"></div>
+              <div class="tl-content">
+                <span class="tl-date">08/2023</span>
+                <h3 class="tl-title">Event Concept Intern</h3>
+                <span class="tl-org"
+                  >PHA (Marketing, PR & Admissions), UPJ</span
+                >
+                <ul class="tl-list">
+                  <li>
+                    Helped develop the concept for the Staff & Student
+                    Ambassador Consolidation event (Jabodetabek sales team).
+                  </li>
+                  <li>
+                    Participated in focus group discussions to support event
+                    planning.
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Projects ===== -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-tag">Projects</span>
+            <h2 class="section-title">Featured work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-banner banner-web">
+                <!-- Ganti src dengan foto/screenshot projek (simpan di assets/img/) -->
+                <img
+                  class="project-img"
+                  src="assets/img/project-trafoindo.png"
+                  alt="Screenshot of the Trafoindo company profile website"
+                  loading="lazy"
+                  onerror="this.remove()"
+                />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  />
+                </svg>
+              </div>
+              <div class="project-body">
+                <div class="project-top">
+                  <h3 class="project-title">Company Profile & CMS</h3>
+                  <span class="badge">Fullstack</span>
+                </div>
+                <p class="project-desc">
+                  A responsive company profile website for PT. Trafoindo Power
+                  Indonesia with a custom CMS for managing content, products,
+                  catalogs, and company information.
+                </p>
+                <ul class="project-points">
+                  <li>Built end-to-end with PHP & MySQL</li>
+                  <li>Responsive UI implemented from Figma mockups</li>
+                  <li>Delivered independently during internship</li>
+                </ul>
+                <div class="chips">
+                  <span class="chip">PHP</span><span class="chip">MySQL</span
+                  ><span class="chip">Bootstrap 5</span
+                  ><span class="chip">JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    class="project-link"
+                    href="https://trafoindopowerindonesia.com/"
+                    target="_blank"
+                    rel="noopener"
+                    >Live Website
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                      <path d="M15 3h6v6" />
+                      <path d="M10 14 21 3" /></svg
+                  ></a>
+                  <!-- Tambahkan repo GitHub kalau ada, contoh:
+                  <a
+                    class="project-link"
+                    href="https://github.com/username/repo"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                  -->
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal delay-1">
+              <div class="project-banner banner-nlp">
+                <!-- Ganti src dengan foto/screenshot projek (simpan di assets/img/) -->
+                <img
+                  class="project-img"
+                  src="assets/img/project-sentiment.png"
+                  alt="Screenshot of the IndoBERT sentiment analysis project"
+                  loading="lazy"
+                  onerror="this.remove()"
+                />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                  />
+                  <path d="M8 9h8M8 13h5" />
+                </svg>
+              </div>
+              <div class="project-body">
+                <div class="project-top">
+                  <h3 class="project-title">
+                    Sentiment Analysis with IndoBERT
+                  </h3>
+                  <span class="badge badge-alt">NLP · Published</span>
+                </div>
+                <p class="project-desc">
+                  Final year project: an Indonesian sentiment classifier for the
+                  Free Nutritious Meal policy on X, fine-tuning IndoBERT on
+                  17,000+ preprocessed text entries.
+                </p>
+                <ul class="project-points">
+                  <li>82% test accuracy · 0.81 weighted F1-score</li>
+                  <li>Weighted loss for 3-class classification</li>
+                  <li>Published in JPIT (SINTA 3)</li>
+                </ul>
+                <div class="chips">
+                  <span class="chip">Python</span
+                  ><span class="chip">IndoBERT</span
+                  ><span class="chip">PyTorch</span
+                  ><span class="chip">Hugging Face</span>
+                </div>
+                <div class="project-links">
+                  <a
+                    class="project-link"
+                    href="https://ejournal.poltekharber.ac.id/index.php/informatika/article/view/10364"
+                    target="_blank"
+                    rel="noopener"
+                    >Read Paper
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                      <path d="M15 3h6v6" />
+                      <path d="M10 14 21 3" /></svg
+                  ></a>
+                  <!-- Tambahkan repo GitHub / Google Colab kalau ada, contoh:
+                  <a
+                    class="project-link"
+                    href="https://github.com/username/repo"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                  -->
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Education & Certificates ===== -->
+      <section id="education" class="section section-alt">
+        <div class="container edu-grid">
+          <div>
+            <div class="section-head reveal">
+              <span class="section-tag">Education</span>
+              <h2 class="section-title">Academic background</h2>
+            </div>
+            <div class="edu-card reveal">
+              <div class="edu-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="edu-school">Universitas Pembangunan Jaya</h3>
+                <p class="edu-major">Informatics — Bachelor of Informatics</p>
+                <p class="edu-date">2022 – 2026 · South Tangerang, Banten</p>
+              </div>
+            </div>
+
+            <div class="edu-card reveal delay-1">
+              <div class="edu-icon edu-icon-alt">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M3 21h18M5 21V10l7-5 7 5v11" />
+                  <path d="M9 21v-4h6v4" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="edu-school">SMA Negeri 7 Kota Tangerang Selatan</h3>
+                <p class="edu-major">Social Sciences (IPS)</p>
+                <p class="edu-date">2019 – 2022 · South Tangerang, Banten</p>
+              </div>
+            </div>
+
+            <div class="section-head reveal" style="margin-top: 3rem">
+              <span class="section-tag">Languages</span>
+              <h2 class="section-title">Languages</h2>
+            </div>
+            <div class="lang-row reveal">
+              <div class="lang-card">
+                <span class="lang-name">Indonesian</span>
+                <span class="lang-level">Native</span>
+              </div>
+              <div class="lang-card">
+                <span class="lang-name">English</span>
+                <span class="lang-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="section-head reveal">
+              <span class="section-tag">Certificates</span>
+              <h2 class="section-title">Certifications</h2>
+            </div>
+            <div class="cert-list">
+              <div class="cert-card reveal">
+                <div class="cert-org">Cisco Networking Academy</div>
+                <ul class="cert-items">
+                  <li>JavaScript Essentials 1</li>
+                  <li>Cybersecurity Essentials</li>
+                  <li>Introduction to Cybersecurity</li>
+                </ul>
+              </div>
+              <div class="cert-card reveal delay-1">
+                <div class="cert-org">Kaggle</div>
+                <ul class="cert-items">
+                  <li>Python</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Skills ===== -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-tag">Skills</span>
+            <h2 class="section-title">Tools of the trade</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card reveal">
+              <h3 class="skill-cat">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+                </svg>
+                Technical
+              </h3>
+              <div class="chips">
+                <span class="chip">PHP</span><span class="chip">JavaScript</span
+                ><span class="chip">HTML</span> <span class="chip">CSS</span
+                ><span class="chip">Bootstrap</span
+                ><span class="chip">MySQL</span> <span class="chip">Python</span
+                ><span class="chip">Java</span>
+              </div>
+            </div>
+
+            <div class="skill-card reveal delay-1">
+              <h3 class="skill-cat">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                  />
+                </svg>
+                Tools & Platforms
+              </h3>
+              <div class="chips">
+                <span class="chip">VS Code</span><span class="chip">GitHub</span
+                ><span class="chip">XAMPP</span>
+                <span class="chip">Google Colab</span
+                ><span class="chip">Kaggle</span><span class="chip">Figma</span>
+              </div>
+            </div>
+
+            <div class="skill-card reveal delay-2">
+              <h3 class="skill-cat">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path
+                    d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"
+                  />
+                </svg>
+                Soft Skills
+              </h3>
+              <div class="chips">
+                <span class="chip">Problem Solving</span
+                ><span class="chip">Teamwork</span>
+                <span class="chip">Time Management</span
+                ><span class="chip">Communication</span>
+                <span class="chip">Adaptability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Contact ===== -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's work together</h2>
+            <p class="section-sub">
+              Have a project in mind or just want to say hi? My inbox is always
+              open.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <a
+              href="mailto:fahmimuhamad168@gmail.com"
+              class="contact-card reveal"
+            >
+              <div class="contact-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 5L2 7" />
+                </svg>
+              </div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">fahmimuhamad168@gmail.com</span>
+            </a>
+
+            <div class="contact-card reveal delay-2">
+              <div class="contact-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </div>
+              <span class="contact-label">Location</span>
+              <span class="contact-value"
+                >South Tangerang, Banten, Indonesia</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span
+          >© <span id="year">2026</span> Muhamad Fahmi. All rights
+          reserved.</span
+        >
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+# Jangan pernah ikutkan file ini ke repo publik
+uploaded_cv.pdf
+*.pdf
+
+# File lokal / percobaan
+tes.png
+.claude/
+
+# File sistem
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
