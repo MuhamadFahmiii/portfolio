@@ -1,12 +1,3 @@
-# Jangan pernah ikutkan file ini ke repo publik
-uploaded_cv.pdf
-*.pdf
-
-# File lokal / percobaan
-tes.png
-.claude/
-TUTORIAL_GITHUB.md
-
 # File sistem
 Thumbs.db
 desktop.ini
@@ -15,3 +6,6 @@ desktop.ini
 # Editor
 .vscode/
 .idea/
+
+# Dokumen & file lokal
+*.pdf
