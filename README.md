@@ -57,4 +57,4 @@ Bisa langsung di-hosting gratis:
 
 ---
 
-Kontak: fahmimuhamad168@gmail.com · +62 895 3314 65655
+Kontak: fahmimuhamad168@gmail.com 
